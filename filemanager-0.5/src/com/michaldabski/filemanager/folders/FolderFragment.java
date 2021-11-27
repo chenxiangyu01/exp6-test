@@ -792,11 +792,6 @@ public class FolderFragment extends Fragment implements OnItemClickListener, OnS
 				Toast.makeText(getActivity(), R.string.shortcut_created, Toast.LENGTH_SHORT).show();
 				actionMode.finish();
 				return true;
-
-			case R.id.action_collect:
-				Toast.makeText(getActivity(), R.string.objects_collected_to_clipboard, Toast.LENGTH_SHORT).show();
-				//finishActionMode(false);
-				return true;
 		}
 		return false;
 	}
